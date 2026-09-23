@@ -1,14 +1,16 @@
 const entrada = require('readline-sync');
 
-const nomePeca = entrada.question(" Digite o nome da Peça: ");
-const Qntdd = entrada.questionInt(" Digite a Quantidsade comprada: ");
-const valorUnitario = entrada.questionFloat(" Digite o valor unitario da Peça: ");
+console.log("Cadastro de peças");
 
-const totalCompra = Qntdd * valorUnitario;
+const nomePeca = entrada.question("Digite o nome da peça: ");
+const quantidade = entrada.questionInt("Digite a quantidade comprada: ");
+const precoUnitario = entrada.questionFloat("Digite o preço unitário: ");
+
+const totalCompra = quantidade * precoUnitario;
 
 console.log("=== RESUMO DA COMPRA ===");
 console.log(`Peça comprada: ${nomePeca}`);
-console.log(`A quantidade comprada foi de: ${Qntdd}`);
-console.log(`O valor unitario e de : ${valorUnitario.toFixed(2)}`);
-console.log(` O total da compra e de: ${totalCompra.toFixed(2)}`);
+console.log(`Quantidade comprada: ${quantidade}`);
+console.log(`Preço unitário: ${precoUnitario.toFixed(2)}`);
+console.log(`Total da compra: ${totalCompra.toFixed(2)}`);
 console.log("-".repeat(30));

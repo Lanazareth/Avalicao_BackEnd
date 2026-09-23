@@ -1,4 +1,4 @@
-const entrada = require('redline-sync');
+const entrada = require('readline-sync');
 
 const nomePeca = entrada.question(" Digite o nome da Peça: ");
 const Qntdd = entrada.questionInt(" Digite a Quantidsade comprada: ");

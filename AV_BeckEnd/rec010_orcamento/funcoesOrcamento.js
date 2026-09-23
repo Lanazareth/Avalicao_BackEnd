@@ -16,6 +16,8 @@ function verificarDesconto(total) {
     }
 }
 
+
+
 module.exports = {
     calcularMaoDeObra,
     calcularTotal,

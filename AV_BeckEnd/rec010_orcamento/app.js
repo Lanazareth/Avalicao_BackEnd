@@ -14,6 +14,7 @@ const maoDeObra = calcularMaoDeObra(horaServico);
 const total = calcularTotal(valorMateriais, horaServico);
 const desconto = verificarDesconto(total);
 
+
 console.log("=== Resumo do Orçamento ===");
 console.log(`Cliente: ${nomeCliente}`);
 console.log(`Valor dos Materiais: R$ ${valorMateriais.toFixed(2)}`);

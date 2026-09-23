@@ -11,5 +11,5 @@ for (let i = 1; i <= 6; i++) {
 const media = acumulador / 6;
 
 console.log(`Soma dos tempos: ${acumulador}`);
-console.log(`Média dos tempos: ${media}`);
+console.log(`Média dos tempos: ${media.toFixed(2)}`);
 console.log("-".repeat(30));

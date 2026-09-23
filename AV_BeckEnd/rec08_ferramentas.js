@@ -20,6 +20,7 @@ for (let i = 0; i < 4; i++) {
 
 console.log("Situação das ferramentas:");
 for (let i = 0; i < ferramentas.length; i++) {
+    console.log("-".repeat(30));
     const ferramenta = ferramentas[i];
     console.log(`${i + 1} - ${ferramenta.nome}`);
     console.log(`Quantidade: ${ferramenta.quantidade}`);
